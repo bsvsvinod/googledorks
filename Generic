@@ -1,0 +1,17 @@
+Google dorks - usage and tested list. 
+
+
+site:target.com intext:login intext:username intext:password
+site:*.com ext:ppt intext:password
+site:*.com filetype:xls inurl:"email.xls"
+
+Intext:
+intext:"login" department | admin | manager | company | host filetype:xls | xlsx -community -github
+
+Cloud:
+inurl: s3.amazonaws.com 
+inurl: s3.amazonaws.com/ audio/ 
+inurl: s3.amazonaws.com/video/ 
+inurl: s3.amazonaws.com/backup/ 
+inurl: s3.amazonaws.com/movie/ 
+inurl: s3.amazonaws.com/image/ 
